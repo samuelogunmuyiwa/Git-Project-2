@@ -1,0 +1,55 @@
+.bg-image {
+    background-image: url('https://miro.medium.com/max/1200/1*xMuIOwjliGUPjkzukeWKfw.jpeg');
+    background-size:cover;
+    min-height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+
+    /** white 70% background visibilty **/
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+
+.navbar-brand {
+    color:#fff;
+}
+
+.gap {
+    height:100px;
+    display:block;
+    /* border:1px solid #ff0000; */
+}
+
+.title {
+    font-size:75pt;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.intro{
+    display: block;
+    background-color: orangered;
+    
+
+}
+
+.container{
+    display: flex;
+     height: 200px;
+        width: 50%;
+        background-color: powderblue;
+
+       
+}
+
+
+
+
+
+
+
