@@ -1,3 +1,5 @@
+img { max-width: 100%; height: auto; }
+
 .bg-image {
     background-image: url('https://miro.medium.com/max/1200/1*xMuIOwjliGUPjkzukeWKfw.jpeg');
     background-size:cover;
@@ -6,7 +8,6 @@
 
 .navbar {
     position: fixed;
-    /* position: fixed; */
     top: 0;
     left: 0;
 
@@ -31,20 +32,12 @@
     padding-top: 100px;
 }
 
-.intro{
+.intro {
     display: block;
     background-color: orangered;
-    
-
 }
 
-
-       
-}
-
-
-
-
-
+/** appears to fix white space on the right in mobile view **/
+div { overflow:hidden; }
 
 
