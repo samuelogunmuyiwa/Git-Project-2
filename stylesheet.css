@@ -35,9 +35,64 @@ img { max-width: 100%; height: auto; }
 .intro {
     display: block;
     background-color: orangered;
+
 }
 
-/** appears to fix white space on the right in mobile view **/
-div { overflow:hidden; }
+
+.promo-item {
+    height: 200px;
+    line-height: 180px;
+    text-align: center;
+}
+
+.promo-item:hover {
+    background-size: 110%; 
+    border: 10px solid rgba(255,255,255,0.3);
+    line-height: 160px;
+}
+
+.promo-item h2 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.promo-item:hover {
+    background-size: 110%; 
+    border: 10px solid rgba(255,255,255,0.3);
+    line-height: 160px;
+}
+
+.promo-item h2 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item-1 {
+    background: url('https://d3rw207pwvlq3a.cloudfront.net/attachments/000/104/074/original/green-chameleon-21532-unsplash_%281%29.jpg');
+
+    }
+
+.item-2 {
+    background: url('https://media.babylonbee.com/articles/article-9175-1.jpg');
+
+}
+
+.item-3 {
+    background: url('https://www.themanual.com/wp-content/uploads/sites/9/2022/11/person-writing-in-notebook-with-pencil-shavings.jpg');
+
+}
+
+
+
+
+
+
+
+
+
 
 
