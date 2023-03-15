@@ -1,3 +1,12 @@
+
+html,
+body header{
+   padding: 0;
+   margin: 0;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+html,
+body,
 img { max-width: 100%; height: auto; }
 
 .bg-image {
@@ -5,6 +14,7 @@ img { max-width: 100%; height: auto; }
     background-size:cover;
     min-height: 100vh;
 }
+
 
 .navbar {
     position: fixed;
@@ -21,22 +31,35 @@ img { max-width: 100%; height: auto; }
 }
 
 .gap {
-    height:100px;
+    height:30px;
     display:block;
     /* border:1px solid #ff0000; */
 }
 
+
 .title {
-    font-size:75pt;
+    font-size:8vw;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 90px;
+
 }
 
 .intro {
     display: block;
-    background-color: orangered;
-
 }
+
+p {
+    padding-bottom: 30px;
+    text-align: center;
+    text-size: bold;
+    
+}
+
+.btn{
+    background-color: yellowgreen;
+    font-size: 25px;
+}
+
 
 
 .promo-item {
@@ -52,44 +75,66 @@ img { max-width: 100%; height: auto; }
 }
 
 .promo-item h2 {
-    font-size: 40px;
+    font-size: 20px;
     display: inline-block;
     vertical-align: middle;
 }
 
-
-
-.promo-item:hover {
-    background-size: 110%; 
-    border: 10px solid rgba(255,255,255,0.3);
-    line-height: 160px;
-}
-
-.promo-item h2 {
-    font-size: 40px;
-    display: inline-block;
-    vertical-align: middle;
-}
 
 .item-1 {
     background: url('https://d3rw207pwvlq3a.cloudfront.net/attachments/000/104/074/original/green-chameleon-21532-unsplash_%281%29.jpg');
+    background-size:cover;
+    
 
     }
 
 .item-2 {
     background: url('https://media.babylonbee.com/articles/article-9175-1.jpg');
+    background-size:cover;
+    
 
 }
 
 .item-3 {
     background: url('https://www.themanual.com/wp-content/uploads/sites/9/2022/11/person-writing-in-notebook-with-pencil-shavings.jpg');
+    background-size:cover;
+    
 
 }
 
+.btn {
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.page-footer {
+    text-align: center;
+    background-color: yellowgreen;
+    }
+
+.section .page-footer .contact {
+    padding: 100px 0;
+    background-color: yellowgreen;
+    color: #fff;
+    }
+
+.page-footer .contact p {
+    font-size: 22px;
+    font-weight: 300;
+
+    }
 
 
-
-
+@media(min-width:768px) {
+    header .navbar{
+        display: block;
+        width: 100%;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
+    
 
 
 
